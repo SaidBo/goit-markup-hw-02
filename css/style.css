@@ -1,0 +1,56 @@
+.page {
+  background-color: #f5f5f5;
+  color: #757575;
+}
+
+.logo {
+  color: #2196f3;
+}
+
+.list {
+  list-style: none;
+}
+
+/* site-nav */
+
+.site-nav .link {
+  color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+/* Герой */
+.hero {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.hero-btn {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+/* section */
+.section-title {
+  color: #212121;
+}
+
+/* benefits */
+
+.benefits .title {
+  color: #212121;
+}
+/* колір основного тексту #757575*/
+
+/* вторичний колір тексту #212121; */
+
+/* білий #FFFFFF */
+
+/* акцент #2196F3 */
+
+/* фон герой і фон футера #2F303A; */
+
+/*  фон #F5F5F5; */
+
+/* вторинни фон #F5F4FA; */ ;
