@@ -176,6 +176,25 @@
 
 /* works */
 
+.title-works {
+  color: var(--title-text-color);
+
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.text-works {
+  color: var(--primary-text-color);
+
+  font-size: 16px;
+  line-height: 1.88;
+}
+
+.works .link {
+  text-decoration: none;
+}
 /* button */
 
 .button {
@@ -186,11 +205,17 @@
 }
 
 .button.primary {
+  color: var(--title-text-color);
+  background-color: var(--bg-btn-color);
+}
+
+.button.secondary {
   color: var(--white-color);
   background-color: var(--accent-color);
 }
 
-.button.secondary {
-  color: var(--title-text-color);
-  background-color: var(--bg-btn-color);
+.button.primary:hover,
+.button.primary:focus {
+  color: var(--white-color);
+  background-color: var(--accent-color);
 }
