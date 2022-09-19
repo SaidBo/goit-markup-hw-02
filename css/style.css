@@ -6,6 +6,7 @@
   --background-color: #ffffff;
   --background-color-hero-footer: #2f303a;
   --bg-btn-color: #f5f4fa;
+  --black-color: #000000;
 }
 
 .page {
@@ -27,7 +28,7 @@
   text-decoration: none;
 }
 .accent {
-  color: #000000;
+  color: var(--black-color);
 }
 .accent-footer {
   color: var(--background-color);
@@ -73,16 +74,17 @@
 }
 
 /* Герой */
+
 .hero-title {
   background-color: var(--background-color-hero-footer);
   color: var(--white-color);
 
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
   text-align: center;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 /* section */
@@ -195,6 +197,7 @@
 .works .link {
   text-decoration: none;
 }
+
 /* button */
 
 .button {
@@ -205,11 +208,21 @@
 }
 
 .button.primary {
-  color: var(--title-text-color);
-  background-color: var(--bg-btn-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
 }
 
-.button.secondary {
+.button.hero {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+}
+
+.button.hero:hover,
+.button.hero:focus {
   color: var(--white-color);
   background-color: var(--accent-color);
 }
