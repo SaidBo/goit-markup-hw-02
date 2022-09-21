@@ -17,6 +17,14 @@
   letter-spacing: 0.03em;
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+
+  outline: 2px solid tomato;
+}
+
 /* logo */
 .logo {
   color: var(--accent-color);
@@ -32,6 +40,12 @@
 }
 .accent-footer {
   color: var(--background-color);
+}
+
+/* Page header */
+
+.page-header {
+  background-color: var(--background-color);
 }
 
 /* site-nav */
@@ -201,6 +215,8 @@
 /* button */
 
 .button {
+  display: inline-block;
+  border-radius: 4px;
   color: var(--title-text-color);
   background-color: var(--bg-btn-color);
 
@@ -208,6 +224,7 @@
 }
 
 .button.primary {
+  padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -215,6 +232,7 @@
 }
 
 .button.hero {
+  padding: 10px 32px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
